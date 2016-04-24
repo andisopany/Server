@@ -45,7 +45,7 @@ public class ClientMessageHandler extends IoHandlerAdapter
     @Override
     public void sessionClosed( IoSession session) throws Exception
     {
-        System.out.println( "Closed " + session.getRemoteAddress());
+        System.out.println( "Closed  " + session.getRemoteAddress());
     }
 
 }
